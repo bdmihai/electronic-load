@@ -28,7 +28,7 @@
 import qbs
 
 Project {
-    name: 'blink'
+    name: 'dc-load'
     minimumQbsVersion: '1.22'
     qbsSearchPaths: '../qbs'
 

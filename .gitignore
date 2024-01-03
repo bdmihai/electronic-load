@@ -31,8 +31,7 @@
 *.out
 *.app
 
-# Big files
-*.zip
+design/dc-load/dc-load-backups/**
 
 build/**
 bin/**
