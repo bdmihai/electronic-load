@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dc-load)(type Legacy)(uri ${KIPRJMOD}/dc-load.lib)(options "")(descr ""))
+)
