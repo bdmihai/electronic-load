@@ -34,7 +34,7 @@
 # Big files
 *.zip
 
-#build/**
-#bin/**
-#!build/.gitkeep
-#!bin/.gitkeep
+build/**
+bin/**
+!build/.gitkeep
+!bin/.gitkeep
