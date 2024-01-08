@@ -33,6 +33,8 @@
 
 design/dc-load/dc-load-backups/**
 
+.cache
+compile_commands.json
 build/**
 bin/**
 !build/.gitkeep
