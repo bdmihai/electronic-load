@@ -1,7 +1,7 @@
 /*_____________________________________________________________________________
- │                                                                            |
- │ COPYRIGHT (C) 2023 Mihai Baneu                                             |
- │                                                                            |
+ |                                                                            |
+ | COPYRIGHT (C) 2024 Mihai Baneu                                             |
+ |                                                                            |
  | Permission is hereby  granted,  free of charge,  to any person obtaining a |
  | copy of this software and associated documentation files (the "Software"), |
  | to deal in the Software without restriction,  including without limitation |
@@ -21,7 +21,7 @@
  | THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                 |
  |____________________________________________________________________________|
  |                                                                            |
- |  Author: Mihai Baneu                           Last modified: 15.Dec.2023  |
+ |  Author: Mihai Baneu                           Last modified: 07.Jan.2024  |
  |                                                                            |
  |___________________________________________________________________________*/
  

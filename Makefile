@@ -34,13 +34,17 @@ CONFIG_OPENOCD_BOARD        = board/stm32f103xx.cfg
 .PHONY: all build clean
 
 MAKECMDGOALS ?= all
-all: build
+all: build clangdb
 
 config:
 	/usr/bin/qbs config-ui
 	
 build: 
 	/usr/bin/qbs build -d build -f source/project.qbs --jobs 16 config:$(CONFIG_MCU) qbs.installRoot:bin qbs.targetPlatform:$(CONFIG_MCU)
+
+clangdb:
+	/usr/bin/qbs generate -d build -f source/project.qbs config:$(CONFIG_MCU) --generator clangdb
+	ln -sf build/$(CONFIG_MCU)/compile_commands.json compile_commands.json 
 
 build-product: 
 	/usr/bin/qbs build -d build/$(PRODUCT) -f source/$(PRODUCT)/$(PRODUCT).qbs --jobs 1 config:$(CONFIG_MCU) qbs.installRoot:bin qbs.targetPlatform:$(CONFIG_MCU)
